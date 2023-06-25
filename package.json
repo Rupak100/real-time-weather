@@ -4,8 +4,7 @@
   "description": "Weather app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "int-test": "mocha --require babel-core/register --recursive test"
+    "start": "node ./bin/www"
   },
   "author": "Rupak Sarkar",
   "license": "ISC",
