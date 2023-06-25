@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Status</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="cond">
+
+    <p>Location : <%=sendData.City %>
+    </p>
+
+
+    <p>The current Weather condition is : <%=sendData.description %>
+    </p>
+
+
+    <p>The current temperature is : <%=sendData.temp%>&#176;C</p>
+    <div class="image">
+      <img src="<%=sendData.img%>">
+      <img src="<%=sendData.img%>">
+      <img src="<%=sendData.img%>">
+      <img src="<%=sendData.img%>">
+    </div>
+  </div>
+
+</body>
+
+</html>

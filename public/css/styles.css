@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@900&family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap");
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(pic.jpg);
+  font-family: "Poppins", sans-serif;
+}
+
+.fm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+h1 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  background: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  left: -5px;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #ffc107;
+  cursor: pointer;
+  color: #fff;
+  padding: 0 25px;
+}
+p{
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+    font-weight: 800;
+    line-height: 0.5;
+
+}
+.cond {
+  /* /* color: #fff; */
+  /* font-size: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+
+
+}
+.image{
+  display:flex;
+  flex-direction: row;
+    height: 300px;
+    width: 300px;
+    background: transparent;
+    text-align: center;
+}
+
